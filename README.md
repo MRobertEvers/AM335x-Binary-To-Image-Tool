@@ -1,5 +1,5 @@
 # AM335x-Binary-To-Image-Tool
-Takes a binary compiled for ARM processors and adds the necessary overhead to boot into it. Adds the 'Magic' TOC and GP Header to the start of the binary. (See AM335x Technical Reference Manual)
+Takes a binary compiled for ARM processors and adds the necessary overhead to boot into it on an AM335x chip. Adds the 'Magic' TOC and GP Header to the start of the binary. (See AM335x Technical Reference Manual)
 
 Usage: `btoi.exe <input_file> <output_file>'
 
